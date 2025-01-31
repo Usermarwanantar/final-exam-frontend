@@ -1,0 +1,94 @@
+.modern-button {
+  background: linear-gradient(45deg, #6366f1, #8b5cf6);
+  border: none;
+  padding: 12px 24px;
+  border-radius: 8px;
+  color: white;
+  font-weight: 600;
+  transition: transform 0.2s, box-shadow 0.2s;
+  cursor: pointer;
+}
+
+.modern-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(99, 102, 241, 0.4);
+}
+
+.modern-card {
+  background: white;
+  border-radius: 16px;
+  padding: 1.5rem;
+  transition: transform 0.3s ease;
+  border: 1px solid #e5e7eb;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+.modern-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.15);
+}
+
+.neomorphic-card {
+  background: var(--background);
+  border-radius: 20px;
+  padding: 2rem;
+  box-shadow: 
+    8px 8px 15px rgba(0, 0, 0, 0.1),
+    -8px -8px 15px rgba(255, 255, 255, 0.8);
+  transition: all 0.3s ease;
+}
+
+.neomorphic-card:hover {
+  box-shadow: 
+    12px 12px 20px rgba(0, 0, 0, 0.15),
+    -12px -12px 20px rgba(255, 255, 255, 0.9);
+}
+
+.floating-element {
+  background: linear-gradient(145deg, #ffffff, #f3f4f6);
+  border-radius: 30px;
+  padding: 2rem;
+  box-shadow: 20px 20px 60px #d1d5db,
+             -20px -20px 60px #ffffff;
+  transform: perspective(1000px) rotateX(5deg);
+  transition: transform 0.3s ease;
+}
+
+.floating-element:hover {
+  transform: perspective(1000px) rotateX(0deg) translateY(-10px);
+}
+
+.gradient-text {
+  background: linear-gradient(45deg, var(--primary), var(--accent));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.card-badge {
+  background: linear-gradient(45deg, var(--accent), var(--primary));
+  color: white;
+  padding: 0.25rem 0.75rem;
+  border-radius: 999px;
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+.card-actions {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-sm);
+  margin-top: var(--spacing-md);
+}
+
+.card-info {
+  color: var(--text-secondary);
+  font-size: 0.875rem;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.card-info:hover {
+  color: var(--primary);
+} 

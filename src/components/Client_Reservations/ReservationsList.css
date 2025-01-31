@@ -1,0 +1,46 @@
+body {
+    overflow: scroll;
+}
+
+td, th, tr {
+    border: 3px solid #cba994;
+    padding: 8px;
+}
+
+.reservationTab {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 80%;
+    border-radius: 10px;
+    margin-bottom: 40vh;
+}
+
+.ReservationsList {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+    width: 250vh;
+    height: 150vh;
+}
+
+.ReservationsList::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../../assets/estee-janssens-zni0zgb3bkQ-unsplash.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    filter: blur(5px);
+    z-index: -1;
+}
+
+h2 {
+    color: wheat;
+}

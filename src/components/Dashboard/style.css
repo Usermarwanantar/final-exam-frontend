@@ -1,0 +1,87 @@
+
+.dashboard {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+    height: 100vh;
+    background-color: #ebf1f7;
+    width: 100%;
+    margin-right: 100px;
+}
+
+.dashboard-item {
+    flex: 1;
+    text-align: center;
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.dashboard-item:hover {
+    transform: scale(1.1); 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+}
+#flights {
+    background-image: url('../../assets/john-mcarthur-PrdNTrIrG8w-unsplash.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#hotels {
+    background-image: url('../../assets/salah-regouane-8TvrWxWUqDE-unsplash.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#offers {
+    background-image: url('../../assets/charlesdeluvio-AT5vuPoi8vc-unsplash.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#destinations {
+    background-image: url('../../assets/chloe-lefleur-DbBwe7nGr3k-unsplash.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#reservations {
+    background-image: url('../../assets/estee-janssens-zni0zgb3bkQ-unsplash.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.dashboard-item a {
+    text-decoration: none;
+    color: #007BFF;
+    font-weight: bold;
+    font-size: 6vh;
+    text-shadow: 1px 1px 2px white;
+}
+
+.dashboard-item a:hover {
+    color: #0056b3;
+}
+.welcomewelcome {
+    font-weight: 500;
+    box-shadow: 0 4px 8px rgb(159, 197, 228);  
+    border-radius: 20px;
+    background-color: rgb(220, 232, 241);
+    margin-right: 30px;
+    height: 18vh;
+    padding-inline: 20px;
+    color: black;
+}
+.welcomeh3 {
+    color: black;
+}

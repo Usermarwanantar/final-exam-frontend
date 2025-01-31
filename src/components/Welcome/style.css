@@ -1,0 +1,111 @@
+/* General reset */
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    overflow-x: hidden;
+}
+
+/* Main container styling */
+.home {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../../assets/leio-mclaren-FwdZYz0yc9g-unsplash.jpg'); /*emiel or mclaren*/
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100vw; /* Full width */
+    min-height: 100vh; /* Full viewport height */
+}
+.welcomeTo {
+    font-size: xx-large;
+    color: black;
+    text-shadow: 1px 1px 2px indigo;
+    font-weight: bolder;
+}
+/* Heading */
+h1 {
+    text-shadow: 1px 1px 2px black;
+    font-weight: 500;
+    border-radius: 3px;
+    font-size: 3em; /* Responsive font size */
+    text-align: center; /* Center the text */
+    margin: 1em 0;
+}
+
+/* Paragraph */
+p {
+    font-weight: 700;
+    font-size: 1.5em; /* Adjust font size */
+    color: rgba(19, 28, 36, 1);
+    margin: 1em 0;
+}
+
+/* Explore styling */
+.explore {
+    border-radius: 7px;
+    color: black;
+    text-shadow: 1px 1px 2px white;
+}
+
+/* Footer */
+.footer {
+    position: relative; 
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    background-color: rgba(33, 53, 71, 0.5); 
+    margin-top: 50px;
+}
+
+.footer p {
+    color: white;
+    background-color: transparent;
+}
+
+/* Logo */
+.logo {
+    width: 15vw; /* Scale logo with screen size */
+    margin: 1em 0;
+    background-color: transparent;    
+}
+.register-btn {
+    margin-bottom: 1vh;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 1.5em;
+    }
+
+    p {
+        font-size: 1em;
+    }
+
+    .logo {
+        width: 25vw; /* Larger logo on smaller screens */
+    }
+
+    .footer {
+        padding: 8px 0;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.2em;
+    }
+
+    p {
+        font-size: 0.9em;
+    }
+
+    .logo {
+        width: 35vw;
+    }
+}

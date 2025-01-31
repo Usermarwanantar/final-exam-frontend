@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  .ClientOffers {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+    width: 250vh;
+    height: 100%;
+}
+
+.ClientOffers::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 300vh;
+    background-image: url('../../assets/charlesdeluvio-AT5vuPoi8vc-unsplash.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    filter: blur(5px);
+    z-index: -1;
+}
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  input {
+    padding: 8px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  div {
+    height: 50%;
+  }
+  .offerDetails {
+    text-align: center;
+}
+ .li {
+    display: flex;
+    justify-content: space-evenly;
+ }
+ h1,h3 {
+    color: white;
+ }
+ .offer-buttons {
+    display: flex;
+    justify-content: space-evenly;
+ }
+ .offer-item {
+  box-shadow: 0 4px 6px rgba(255, 255, 255,0.3);
+ }
